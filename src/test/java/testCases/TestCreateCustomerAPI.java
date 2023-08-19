@@ -16,10 +16,7 @@ public class TestCreateCustomerAPI extends APISetUp {
 		// Stripe APIs
 		// baseURI: https://api.stripe.com/v1/customers
 		// method: POST
-		// sk_test_4eC39HqLyjWDarjtT1zdp7dc
-		
-		 
-		
+				 		
 		RequestSpecification specification = setRequestSpecification().formParam("email", "pyush@gmail.com")
 		.formParam("description", "REST API").formParam("name", "Piyush").log().all();
 		
