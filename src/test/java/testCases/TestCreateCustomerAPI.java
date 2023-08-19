@@ -16,7 +16,6 @@ public class TestCreateCustomerAPI extends APISetUp {
 		// Stripe APIs
 		// baseURI: https://api.stripe.com/v1/customers
 		// method: POST
-		// auth: Basic Auth
 		// sk_test_4eC39HqLyjWDarjtT1zdp7dc
 		
 		 
