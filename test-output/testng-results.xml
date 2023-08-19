@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4788" started-at="2023-08-19T15:45:24Z" finished-at="2023-08-19T15:45:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4788" started-at="2023-08-19T15:45:24Z" finished-at="2023-08-19T15:45:29Z">
+      <class name="testCases.TestCreateCustomerAPI">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testCases.TestCreateCustomerAPI@66a3ffec]" name="beforeSuite" is-config="true" duration-ms="1402" started-at="2023-08-19T15:45:22Z" finished-at="2023-08-19T15:45:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testCases.TestCreateCustomerAPI@66a3ffec]" name="beforeMethod" is-config="true" duration-ms="7" started-at="2023-08-19T15:45:24Z" finished-at="2023-08-19T15:45:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.TestCreateCustomerAPI.validateCreateCustomerAPIWithValidData()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateCreateCustomerAPIWithValidData()[pri:0, instance:testCases.TestCreateCustomerAPI@66a3ffec]" name="validateCreateCustomerAPIWithValidData" duration-ms="4716" started-at="2023-08-19T15:45:24Z" finished-at="2023-08-19T15:45:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateCustomerAPIWithValidData -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.TestCreateCustomerAPI@66a3ffec]" name="afterMethod" is-config="true" duration-ms="1" started-at="2023-08-19T15:45:29Z" finished-at="2023-08-19T15:45:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateCreateCustomerAPIWithValidData status=SUCCESS method=TestCreateCustomerAPI.validateCreateCustomerAPIWithValidData()[pri:0, instance:testCases.TestCreateCustomerAPI@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testCases.TestCreateCustomerAPI@66a3ffec]" name="afterSuite" is-config="true" duration-ms="5" started-at="2023-08-19T15:45:29Z" finished-at="2023-08-19T15:45:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testCases.TestCreateCustomerAPI -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
