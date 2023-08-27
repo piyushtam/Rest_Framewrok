@@ -5,7 +5,12 @@
     <classes>
       <class name="testCases.TestCreateCustomerAPI">
         <methods>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
           <include name="validateCreateCustomerAPIWithValidData"/>
+          <include name="beforeSuite"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
         </methods>
       </class> <!-- testCases.TestCreateCustomerAPI -->
     </classes>

@@ -17,4 +17,10 @@ public interface ConfigProperty extends Config{
 	@Key("secretKey")
 	String getSecretKey();
 	
+	@Key("testReportPath")
+	String getTestReportPath();
+	
+	@Key("testReportName")
+	String getTestReportName();
+	
 }

@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14348" started-at="2023-08-26T15:19:13Z" finished-at="2023-08-26T15:19:27Z">
+  <suite name="Default suite" duration-ms="88" started-at="2023-08-27T18:06:12Z" finished-at="2023-08-27T18:06:12Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14348" started-at="2023-08-26T15:19:13Z" finished-at="2023-08-26T15:19:27Z">
+    <test name="Default test" duration-ms="88" started-at="2023-08-27T18:06:12Z" finished-at="2023-08-27T18:06:12Z">
       <class name="testCases.TestCreateCustomerAPI">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testCases.TestCreateCustomerAPI@66a3ffec]" name="beforeSuite" is-config="true" duration-ms="1787" started-at="2023-08-26T15:19:11Z" finished-at="2023-08-26T15:19:13Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testCases.TestCreateCustomerAPI@2aceadd4]" name="beforeSuite" is-config="true" duration-ms="1536" started-at="2023-08-27T18:06:11Z" finished-at="2023-08-27T18:06:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testCases.TestCreateCustomerAPI@66a3ffec]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2023-08-26T15:19:13Z" finished-at="2023-08-26T15:19:13Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testCases.TestCreateCustomerAPI@2aceadd4]" name="beforeClass" is-config="true" duration-ms="9" started-at="2023-08-27T18:06:12Z" finished-at="2023-08-27T18:06:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="FAIL" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testCases.TestCreateCustomerAPI@2aceadd4]" name="beforeMethod" is-config="true" duration-ms="6" started-at="2023-08-27T18:06:12Z" finished-at="2023-08-27T18:06:12Z">
           <params>
             <param index="0">
               <value>
@@ -19,25 +23,88 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at setUp.APISetUp.beforeMethod(APISetUp.java:54)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="validateCreateCustomerAPIWithValidData()[pri:0, instance:testCases.TestCreateCustomerAPI@66a3ffec]" name="validateCreateCustomerAPIWithValidData" duration-ms="14295" started-at="2023-08-26T15:19:13Z" finished-at="2023-08-26T15:19:27Z">
+        <test-method status="SKIP" signature="validateCreateCustomerAPIWithValidData()[pri:0, instance:testCases.TestCreateCustomerAPI@2aceadd4]" name="validateCreateCustomerAPIWithValidData" duration-ms="0" started-at="2023-08-27T18:06:12Z" finished-at="2023-08-27T18:06:12Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at setUp.APISetUp.beforeMethod(APISetUp.java:54)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCreateCustomerAPIWithValidData -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.TestCreateCustomerAPI@66a3ffec]" name="afterMethod" is-config="true" duration-ms="1" started-at="2023-08-26T15:19:27Z" finished-at="2023-08-26T15:19:27Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=validateCreateCustomerAPIWithValidData status=SUCCESS method=TestCreateCustomerAPI.validateCreateCustomerAPIWithValidData()[pri:0, instance:testCases.TestCreateCustomerAPI@66a3ffec] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="SKIP" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.TestCreateCustomerAPI@2aceadd4]" name="afterMethod" is-config="true" duration-ms="0" started-at="2023-08-27T18:06:12Z" finished-at="2023-08-27T18:06:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testCases.TestCreateCustomerAPI@66a3ffec]" name="afterSuite" is-config="true" duration-ms="8" started-at="2023-08-26T15:19:28Z" finished-at="2023-08-26T15:19:28Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testCases.TestCreateCustomerAPI@2aceadd4]" name="afterSuite" is-config="true" duration-ms="3" started-at="2023-08-27T18:06:12Z" finished-at="2023-08-27T18:06:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
